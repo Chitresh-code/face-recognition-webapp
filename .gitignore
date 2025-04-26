@@ -1,0 +1,19 @@
+# Ignore virtual environments at root level
+venv/
+.env
+.env.local
+
+# Node.js stuff
+node_modules/
+
+# Docker related
+__docker_cache__/
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/

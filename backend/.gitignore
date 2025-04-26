@@ -1,0 +1,32 @@
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment folders
+venv/
+ENV/
+env/
+.venv/
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data folders (Training data and Encoded face data)
+face_data/
+training/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Docker
+__docker_cache__/
+*.log
